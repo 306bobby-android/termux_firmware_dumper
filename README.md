@@ -1,8 +1,8 @@
 <div align="center">
 
-  <h1>Phoenix Firmware Dumper v1.1.3</h1>
+  <h1>Termux Firmware Dumper v1.1.3</h1>
 
-  <h4>Based Upon Dumpyara from AndroidDumps, Infused w/ their Firmware_extractor</h4>
+  <h4>Based Upon Dumpyara and Phoenix from AndroidDumps, Infused w/ their Firmware_extractor</h4>
 
 </div>
 
@@ -23,11 +23,7 @@ You might've used firmware extractor via dumpyara from https://github.com/Androi
 
 ## Recommendations before Playing with Firmware Dumper
 
-This toolkit can run in any Debian/Ubuntu distribution, Ubuntu Bionic and Focal would be best, other versions are not tested.
-
-Support for Alpine Linux is added and tested. You can give it a try.
-
-For any other UNIX Distributions, please refer to internal [Setup File](setup.sh) and install the required programs via their own package manager.
+This version of the dumper toolkit is formulated specifically to run on Termux. Use of other OS's WILL fail without manual setup
 
 ## Prepare toolkit dependencies / requirements
 
