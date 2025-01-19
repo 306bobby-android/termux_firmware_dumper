@@ -4,7 +4,7 @@
 		gzip cpio bzip2 liblz4 liblzma xz-utils lzop \
 		libxml2 python aria2 brotli zstd openssl
 
-	_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
+	_file="$(find $PREFIX/lib/python3.1* -name "_sysconfigdata*.py")"
 	rm -rf $PREFIX/lib/python3.11/__pycache__
 	cp $_file "$_file".backup
 	sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
